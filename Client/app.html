@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Banglore home prices</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Banglore Home Prices Prediction</h1>
+    </div>
+    <div class="inputs">
+        <div class="box">
+            <div class="title">Area (Square Feet)</div>
+            <div class="areainp inputboxes">
+                <input type="text" placeholder="Enter Area" class="inputboxes areavalue">
+            </div>
+        </div>
+        <div class="box">
+            <div class="title">BHK</div>
+            <div class="bhkbuttons inputboxes">
+                <button class="bhk1 but bhkbut">1</button>
+                <button class="bhk2 but bhkbut">2</button>
+                <button class="bhk3 but bhkbut">3</button>
+                <button class="bhk4 but bhkbut">4</button>
+                <button class="bhk5 but bhkbut">5</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="title">Bath</div>
+            <div class="bathbuttons inputboxes">
+                <button class="bath1 but bathbut">1</button>
+                <button class="bath2 but bathbut">2</button>
+                <button class="bath3 but bathbut">3</button>
+                <button class="bath4 but bathbut">4</button>
+                <button class="bath5 but bathbut">5</button>
+            </div>
+        </div>
+        <div class="box">
+            <div class="title">Location</div>
+            <div class="selectbox">
+                <select  class="locnames inputboxes">
+                    <option value="select_location">Select Location</option>
+                </select>
+            </div>
+        </div>
+            <button class="Estimate_price">Estimate Price</button>
+            <div class="output"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

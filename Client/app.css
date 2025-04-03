@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bgimg.jpg");
+    background-size: cover;
+}
+.heading{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(58, 50, 6);
+}
+.inputs{
+    width: 50%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: rgb(240, 248, 255, 0.5);
+    
+}
+.title{
+    text-align: left;
+    height: 50%;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.box{
+    height: 16.6%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.inputboxes{
+    width: 80%;
+    height: 50%;
+    border: none;
+    border-radius: 0.2rem;
+}
+.Estimate_price:hover{
+    background-color: rgb(216, 223, 205);  
+}
+.Estimate_price{
+    position: relative;
+    height: 2rem;
+    width: 50%;
+    left: 25%;
+    background-color: rgb(162, 216, 114);
+    border: none;
+    border-radius: 0.5rem;
+}
+.bhkbuttons{
+    display: flex;
+}
+.but{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(162, 216, 114);
+    border: 0.2%;
+}
+.bathbuttons{
+    display: flex;
+}
+.but:hover{
+    background-color: rgb(216, 223, 205);
+}
+.areainp{
+    width: 100%;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 10%;
+    position: relative;
+    left: 15% ;
+    top: 1rem;
+    background-color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
